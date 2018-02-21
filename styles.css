@@ -1,0 +1,172 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,400i);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:400);
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+  margin: 1em 0 1em 0;
+}
+
+* ~ h2, * ~ h3 {
+  margin-top: 1.5em;
+}
+
+p {
+  margin: 1em 0 1em 0;
+}
+
+.inverse {
+  background: #272822;
+  color: #dcdccc;
+  text-shadow: 0 0 20px #333;
+}
+
+.inverse h1,
+.inverse h2,
+.inverse h1 a,
+.inverse h2 a {
+  color: #f3f3f3;
+}
+
+.inverse a {
+  color: #dcdccc;
+}
+
+.footnote {
+  position: absolute;
+  bottom: 3em;
+  right: 20px;
+}
+
+.width-40 {
+  width: 40%;
+  display: inline-block;
+}
+
+.font-size-80 {
+  font-size: 80%;
+}
+
+.plus-list li,
+.minus-list li {
+  list-style: none;
+  position: relative;
+  left: 0.2em;
+}
+
+.plus-list li::before,
+.minus-list li::before {
+  position: absolute;
+  font-weight: bold;
+  left: -1.2em;
+}
+
+.plus-list li::before {
+  content: "+";
+}
+
+.minus-list li::before {
+  content: "–";
+}
+
+.title-text {
+  position: relative;
+}
+
+.title-text .replaced-title-text {
+  position: absolute;
+  left: 0;
+  top: 1em;
+}
+
+.topics {
+  width: 60%;
+  text-align: left;
+  display: inline-block;
+}
+
+.remark-code,
+.remark-inline-code {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.remark-code {
+  font-size: 80%;
+}
+
+.remark-inline-code {
+  font-size: 90%;
+}
+
+.remark-code-line-highlighted {
+  background-color: rgba(128, 128, 128, 0.5);
+}
+
+.hljs-tk-zenburn .hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #3f3f3f;
+}
+
+.hljs-tk-zenburn .hljs,
+.hljs-tk-zenburn .hljs-subst {
+  color: #dcdccc;
+}
+
+.hljs-tk-zenburn .hljs-deletion,
+.hljs-tk-zenburn .hljs-string,
+.hljs-tk-zenburn .hljs-built_in,
+.hljs-tk-zenburn .hljs-builtin-name {
+  color: #cc9393;
+}
+
+.hljs-tk-zenburn .hljs-attribute,
+.hljs-tk-zenburn .hljs-selector-tag,
+.hljs-tk-zenburn .hljs-tag,
+.hljs-tk-zenburn .hljs-template-tag,
+.hljs-tk-zenburn .hljs-template-variable,
+.hljs-tk-zenburn .hljs-variable {
+  color: #dfaf8f;
+}
+
+.hljs-tk-zenburn .hljs-literal {
+  color: #bfebbf;
+}
+
+.hljs-tk-zenburn .hljs-number {
+  color: #8cd0d3;
+}
+
+.hljs-tk-zenburn .hljs-addition,
+.hljs-tk-zenburn .hljs-comment,
+.hljs-tk-zenburn .hljs-quote,
+.hljs-tk-zenburn .hljs-meta {
+  color: #7f9f7f;
+}
+
+.hljs-tk-zenburn .hljs-keyword,
+.hljs-tk-zenburn .hljs-name,
+.hljs-tk-zenburn .hljs-section,
+.hljs-tk-zenburn .hljs-selector-class,
+.hljs-tk-zenburn .hljs-selector-id,
+.hljs-tk-zenburn .hljs-title,
+.hljs-tk-zenburn .hljs-type {
+  color: #f0dfaf;
+}
+
+.hljs-tk-zenburn .hljs-keyword,
+.hljs-tk-zenburn .hljs-symbol {
+  font-weight: bold;
+}
+
+.hljs-tk-zenburn .hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-tk-zenburn .hljs-strong {
+  font-weight: bold;
+}
