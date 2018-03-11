@@ -4,7 +4,7 @@ A presentation held at Emacs Afternoon event at
 [Reaktor](https://www.reaktor.com/) on 6th March 2018 in Helsinki,
 Finland.
 
-[Slides](http://tkareine.github.io/javascript-power-tools-for-emacs/index.html)
+[Slides](https://tkareine.github.io/javascript-power-tools-for-emacs/index.html)
 
 ## License
 
